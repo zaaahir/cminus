@@ -1,6 +1,6 @@
 #pragma once
-#ifndef clox_obj_native_h
-#define clox_obj_native_h
+#ifndef obj_native_h
+#define obj_native_h
 
 #include "object.h"
 #include "vm.h"

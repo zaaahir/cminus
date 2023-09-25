@@ -1,6 +1,6 @@
 #pragma once
-#ifndef clox_gc_h
-#define clox_gc_h
+#ifndef gc_h
+#define gc_h
 
 #include "common.h"
 #include "value.h"

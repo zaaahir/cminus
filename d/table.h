@@ -1,6 +1,6 @@
 #pragma once
-#ifndef clox_table_h
-#define clox_table_h
+#ifndef table_h
+#define table_h
 
 #include "common.h"
 #include "value.h"

@@ -1,6 +1,6 @@
 #pragma once
-#ifndef clox_compiler_h
-#define clox_compiler_h
+#ifndef compiler_h
+#define compiler_h
 
 #include <stdio.h>
 

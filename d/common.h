@@ -1,5 +1,5 @@
 #pragma once
-#ifndef clox_common_h
+#ifndef common_h
 
 #include <stdbool.h>
 #include <stddef.h>

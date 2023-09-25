@@ -16,7 +16,7 @@
 #define XSTR(x) STR(x)
 
 static void printVersion(FILE* fout) {
-  fputs("clox " XSTR(VERSION) "\n", fout);
+  fputs("c- " XSTR(VERSION) "\n", fout);
 }
 
 static void repl(int argc, const char* argv[]) {
@@ -151,7 +151,7 @@ static void printHelp(FILE* fout) {
   printVersion(fout);
   fputs(
       "\n"
-      "Usage: clox [options] [path]\n"
+      "Usage: c- [options] [path]\n"
       "\n"
       "   -D, --dump\t\t(debug) Dump disassembled script\n"
       "   -T, --trace\t\t(debug) Trace script execution\n"

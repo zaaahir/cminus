@@ -1478,7 +1478,7 @@ UTEST(VM, NativeArgs) {
   initMemBuf(&err);
   initVM(&vm, out.fptr, err.fptr);
 
-  const char* args[] = { "clox", "foo", "bar", "baz", NULL };
+  const char* args[] = { "c-", "foo", "bar", "baz", NULL };
   argsVM(&vm, ARRAY_SIZE(args), args);
 
   size_t temps = 0;
@@ -1509,7 +1509,7 @@ UTEST(VM, NativeArgs) {
 
   fflush(out.fptr);
   fflush(err.fptr);
-  EXPECT_STREQ("clox\nfoo\nbar\nbaz\n\n", out.buf);
+  EXPECT_STREQ("c-\nfoo\nbar\nbaz\n\n", out.buf);
   EXPECT_STREQ("", err.buf);
 
   freeVM(&vm);

@@ -1,6 +1,6 @@
 #pragma once
-#ifndef clox_memory_h
-#define clox_memory_h
+#ifndef memory_h
+#define memory_h
 
 #include "common.h"
 #include "object.h"

@@ -1,6 +1,6 @@
 #pragma once
-#ifndef clox_vm_h
-#define clox_vm_h
+#ifndef vm_h
+#define vm_h
 
 #include <stdio.h>
 

@@ -1,6 +1,6 @@
 #pragma once
-#ifndef clox_value_h
-#define clox_value_h
+#ifndef value_h
+#define value_h
 
 #include <stdio.h>
 #include <string.h>
